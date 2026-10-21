@@ -74,3 +74,18 @@ h2 {
     margin-top: 15px;
     justify-self: center;
 }
+
+.div3 {
+    width: 100%;
+    background-color: black;
+    height: 120px;
+}
+
+.h2 {
+    display: flex;
+    position: fixed;
+    justify-items: center;
+    font-size: 50px;
+    -webkit-text-stroke: 1px #d400f0;
+    
+}
