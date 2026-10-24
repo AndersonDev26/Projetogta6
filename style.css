@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: rgb(67, 0, 0);
+    background-color: #180018;
 }
 
 header{
@@ -87,4 +87,20 @@ nav {
     font-size: 60px;
    -webkit-text-stroke: 1px rgba(167, 167, 167, 0.464);
 }
+
+
+.div4 {
+    width: 35%;
+    height: 500px;
+    background-color: rgb(0, 0, 0);
+    display:flex;
+    margin-left: 250px;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+
+#gta6 {
+    margin-left: 75px;
+}
+
 
