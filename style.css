@@ -144,5 +144,47 @@ nav {
     cursor: pointer;
 }
 
+#h1 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    word-spacing: 7px;
+    margin-top: 40px;
+}
+
+#trailer1 {
+   margin-left: 250px;
+   margin-top: 50px;
+}
+
+#h12 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    word-spacing: 7px;
+    margin-top: 180px;
+}
+
+#trailer2 {
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+#h13 {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    word-spacing: 7px;
+    margin-top: 180px;
+}
+
+#trailer3 {
+    margin-top: 50px;
+    margin-left: 250px;
+
+}
 
 
