@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #180018;
+    background-color: #2d002d;
 }
 
 header{
@@ -33,6 +33,11 @@ header{
 
 .link1 {
     text-decoration: none;
+    overflow: hidden;
+}
+
+.link1:hover {
+    opacity: 0.5;
 }
 
 #img1{
@@ -55,9 +60,16 @@ header{
     height: 20px;
 }
 
+#img2:hover {
+    opacity: 0.5;
+}
+
 #img3 {
     height: 23px;
+}
 
+#img3:hover {
+    opacity: 0.5;
 }
 
 nav {
@@ -144,6 +156,10 @@ nav {
     cursor: pointer;
 }
 
+.botao1:hover {
+    opacity: 0.8;
+}
+
 #h1 {
     color: #fff;
     display: flex;
@@ -156,6 +172,7 @@ nav {
 #trailer1 {
    margin-left: 250px;
    margin-top: 50px;
+   border-radius: 5%;
 }
 
 #h12 {
@@ -170,6 +187,7 @@ nav {
 #trailer2 {
     margin-top: 50px;
     margin-left: 250px;
+    border-radius: 5%;
 }
 
 #h13 {
@@ -184,6 +202,7 @@ nav {
 #trailer3 {
     margin-top: 50px;
     margin-left: 250px;
+    border-radius: 5%;
 
 }
 
