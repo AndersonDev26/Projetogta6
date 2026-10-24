@@ -31,9 +31,16 @@ header{
     margin-top: 30px;
 }
 
+.link1 {
+    text-decoration: none;
+}
+
 #img1{
     display: flex;
-    height: 150px;
+    height: 140px;
+    align-self: center;
+    margin-left: 200px;
+    
 }
 .div2 {
     width: 5%;
@@ -50,4 +57,5 @@ header{
 
 #img3 {
     height: 23px;
+
 }
