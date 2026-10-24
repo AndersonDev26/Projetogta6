@@ -89,7 +89,13 @@ nav {
 }
 
 
-.div4 {
+.div4{
+    
+    display: flex;
+    
+}
+
+.div4-5 {
     width: 35%;
     height: 500px;
     background-color: rgb(0, 0, 0);
@@ -102,5 +108,41 @@ nav {
 #gta6 {
     margin-left: 75px;
 }
+
+.div5 {
+    width: 35%;
+    height: 500px;
+    background-color: rgba(67, 67, 67, 0);
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+#p1 {
+    color: aliceblue;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+#p2{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#p3{
+    color: aliceblue;
+}
+
+.botao1{
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 18px;
+    background-color: #000000;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
 
 
