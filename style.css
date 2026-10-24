@@ -24,10 +24,10 @@ header{
     display: flex;
     gap: 39px;
     font-size: 13px;
-    width: 30%;
+    width: 35%;
     height: 18px;
     background-color: rgba(0, 255, 255, 0);
-    margin-left: 120px;
+    margin-left: 200px;
     margin-top: 37px;
 }
 
@@ -39,7 +39,7 @@ header{
     display: flex;
     height: 140px;
     align-self: center;
-    margin-left: 200px;
+    
     
 }
 .div2 {
@@ -73,7 +73,7 @@ nav {
 
 #h22{
     font-size: 30px;
-    -webkit-text-stroke: 1px rgba(132, 0, 204, 0.464);
+    -webkit-text-stroke: 1px rgba(0, 0, 1, 0.781);
 }
 
 #h2 {
@@ -85,7 +85,7 @@ nav {
     align-items: center;
     justify-content: center;
     font-size: 60px;
-   -webkit-text-stroke: 1px rgba(167, 167, 167, 0.464);
+   -webkit-text-stroke: 1px rgba(0, 0, 0, 0.395);
 }
 
 
@@ -106,7 +106,7 @@ nav {
 }
 
 #gta6 {
-    margin-left: 75px;
+    margin-left: 65px;
 }
 
 .div5 {
@@ -138,7 +138,7 @@ nav {
     height: 50px;
     border-radius: 50px;
     font-size: 18px;
-    background-color: #000000;
+    background-color: #020202;
     color: aliceblue;
     border: none;
     cursor: pointer;
