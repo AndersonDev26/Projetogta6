@@ -20,11 +20,11 @@ header {
 .div1 {
     display: flex;
     gap: 39px;
-    font-size: 13px;
+    font-size: 15px;
     width: 35%;
     height: 18px;
     background-color: rgba(0, 255, 255, 0);
-    margin-left: 200px;
+    margin-left: 160px;
     margin-top: 37px;
 }
 
