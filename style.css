@@ -44,6 +44,7 @@ header {
     display: flex;
     height: 140px;
     align-self: center;
+    margin-left: 80px;
 
 
 }
@@ -59,6 +60,7 @@ header {
 
 #img2 {
     height: 20px;
+    
 }
 
 #img2:hover {
@@ -66,7 +68,7 @@ header {
 }
 
 #img3 {
-    height: 23px;
+    height: 24px;
 }
 
 #img3:hover {
