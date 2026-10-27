@@ -159,3 +159,14 @@ header {
     border: solid 2px #6e008f;
 }
 
+.calhampton {
+    margin-left: 50px;
+    margin-top: 60px;
+    color: #fff;
+    font-size: 33px;
+    text-align:justify;
+    padding-right: 60px;
+    -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
+}
+
+
