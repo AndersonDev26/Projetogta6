@@ -88,16 +88,56 @@ header {
     margin-left: 300px;
     font-size: 35px;
     color: aliceblue;
+    -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
 }
 
 
 .jd {
     display: flex;
 }
+
 .jasonduval {
     width: 1000px;
     margin-left: 100px;
     border-radius: 20px;
     border: solid 2px #6e008f;
+}
+
+.j2 {
+    margin-left: 50px;
+    margin-top: 60px;
+    color: #fff;
+    font-size: 33px;
+    text-align:justify;
+    padding-right: 60px;
+    -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
+}
+
+.lc {
+    display: flex;
+}
+
+.luc {
+    margin-left: 300px;
+    font-size: 35px;
+    color: aliceblue;
+    -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
+}
+
+.lucia {
+    width: 1000px;
+    margin-left: 100px;
+    border-radius: 20px;
+    border: solid 2px #6e008f;
+}
+
+.luciacaminos {
+    margin-left: 50px;
+    margin-top: 60px;
+    color: #fff;
+    font-size: 33px;
+    text-align:justify;
+    padding-right: 60px;
+    -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
 }
 
