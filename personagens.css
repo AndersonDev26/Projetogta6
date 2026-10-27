@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #2d002d;
+    background-color:#2d002d ;
 }
 
 header {
@@ -100,7 +100,7 @@ header {
     width: 1000px;
     margin-left: 100px;
     border-radius: 20px;
-    border: solid 2px #6e008f;
+    border: solid 2px #02c3c6;
 }
 
 .j2 {
@@ -128,14 +128,14 @@ header {
     width: 1000px;
     margin-left: 100px;
     border-radius: 20px;
-    border: solid 2px #6e008f;
+    border: solid 2px #c300ff;
 }
 
 .luciacaminos {
     margin-left: 50px;
     margin-top: 60px;
     color: #fff;
-    font-size: 33px;
+    font-size: 30px;
     text-align:justify;
     padding-right: 60px;
     -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
@@ -156,14 +156,14 @@ header {
     width: 1000px;
     margin-left: 100px;
     border-radius: 20px;
-    border: solid 2px #6e008f;
+    border: solid 2px #00fd76;
 }
 
 .calhampton {
     margin-left: 50px;
-    margin-top: 60px;
+    margin-top: 43px;
     color: #fff;
-    font-size: 33px;
+    font-size: 28px;
     text-align:justify;
     padding-right: 60px;
     -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
