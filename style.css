@@ -54,12 +54,12 @@ header {
     height: 50px;
     background-color: rgba(0, 0, 255, 0);
     margin-left: 600px;
-    display: block;
     margin-top: 40px;
+    display: flex;
 }
 
 #img2 {
-    height: 20px;
+    height: 25px;
     
 }
 
@@ -68,7 +68,8 @@ header {
 }
 
 #img3 {
-    height: 24px;
+    height: 25px;
+    margin-left: 25px;
 }
 
 #img3:hover {
@@ -88,7 +89,7 @@ nav {
 
 #h22 {
     font-size: 30px;
-    -webkit-text-stroke: 1px rgba(0, 106, 118, 0.455);
+    -webkit-text-stroke: 1px rgba(9, 9, 9, 0.83);
 }
 
 #h2 {

@@ -54,12 +54,12 @@ header {
     height: 50px;
     background-color: rgba(0, 0, 255, 0);
     margin-left: 600px;
-    display: block;
+    display: flex;
     margin-top: 40px;
 }
 
 #img2 {
-    height: 20px;
+    height: 25px;
 
 }
 
@@ -68,7 +68,8 @@ header {
 }
 
 #img3 {
-    height: 24px;
+    height: 25px;
+    margin-left: 25px;
 }
 
 #img3:hover {
