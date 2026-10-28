@@ -214,7 +214,7 @@ header {
     width: 800px;
     margin-left: 100px;
     border-radius: 20px;
-    border: solid 2px #c300ff;
+    border: solid 2px #00008d;
 }
 
 .boobieike {
@@ -222,6 +222,34 @@ header {
     margin-top: 60px;
     color: #fff;
     font-size: 38px;
+    text-align:justify;
+    padding-right: 100px;
+    -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
+}
+
+.dre {
+     margin-left: 300px;
+    font-size: 35px;
+    color: aliceblue;
+    -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
+}
+
+.quan {
+    display: flex;
+}
+
+.priest {
+    width: 800px;
+    margin-left: 100px;
+    border-radius: 20px;
+    border: solid 2px #c300ff;
+}
+
+.drequan {
+     margin-left: 80px;
+    margin-top: 60px;
+    color: #fff;
+    font-size: 30px;
     text-align:justify;
     padding-right: 100px;
     -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
