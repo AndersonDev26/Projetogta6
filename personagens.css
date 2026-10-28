@@ -171,4 +171,30 @@ header {
     -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
 }
 
+.bh {
+    margin-left: 300px;
+    font-size: 35px;
+    color: aliceblue;
+    -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
+}
 
+.brian {
+    display: flex;
+}
+
+.heder {
+    width: 6669px;
+    margin-left: 100px;
+    border-radius: 20px;
+    border: solid 2px #fd7200;
+}
+
+.brianheder {
+    margin-left: 137px;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 33px;
+    text-align:justify;
+    padding-right: 100px;
+    -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
+}
