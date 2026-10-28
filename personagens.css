@@ -242,11 +242,39 @@ header {
     width: 800px;
     margin-left: 100px;
     border-radius: 20px;
-    border: solid 2px #c300ff;
+    border: solid 2px #ffd500;
 }
 
 .drequan {
      margin-left: 80px;
+    margin-top: 45px;
+    color: #fff;
+    font-size: 30px;
+    text-align:justify;
+    padding-right: 100px;
+    -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
+}
+
+.rb {
+      margin-left: 300px;
+    font-size: 35px;
+    color: aliceblue;
+    -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
+}
+
+.raul {
+    display: flex;
+}
+
+.bautista {
+    width: 800px;
+    margin-left: 100px;
+    border-radius: 20px;
+    border: solid 2px #fdfdfd;
+}
+
+.raulbautista {
+      margin-left: 80px;
     margin-top: 60px;
     color: #fff;
     font-size: 30px;
