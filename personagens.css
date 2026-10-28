@@ -81,7 +81,9 @@ header {
     display: flex;
     justify-content:center;
     margin-top: 60px;
-    -webkit-text-stroke: 1px #72026738;
+    -webkit-text-stroke: 1px #72023a47;
+    width: 100%;
+    background-color: #00431e33;
 }
 
 .jazon {
