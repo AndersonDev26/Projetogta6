@@ -176,6 +176,7 @@ nav {
     margin-left: 250px;
     margin-top: 50px;
     border-radius: 5%;
+    border: solid 2px #020202;
 }
 
 #h12 {
@@ -191,6 +192,7 @@ nav {
     margin-top: 50px;
     margin-left: 250px;
     border-radius: 5%;
+    border: solid 2px #020202;
 }
 
 #h13 {
@@ -206,5 +208,38 @@ nav {
     margin-top: 50px;
     margin-left: 250px;
     border-radius: 5%;
+    border: solid 2px #020202;
 
+}
+
+.capa {
+    font-size: 38px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.cao {
+    width: 1410px;
+    height: 800;
+    border-radius: 5%;
+    border: solid 2px #fff;
+    margin-left: 250px;
+}
+
+.leonida {
+    font-size: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.vi {
+    font-size: 27px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    padding-right: 200px;
+    text-align: center;
 }

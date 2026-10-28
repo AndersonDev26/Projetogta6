@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color:#2d002d ;
+    background-color: #2d002d;
 }
 
 header {
@@ -60,7 +60,7 @@ header {
 
 #img2 {
     height: 20px;
-    
+
 }
 
 #img2:hover {
@@ -79,7 +79,7 @@ header {
     font-size: 60px;
     color: #fff;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin-top: 60px;
     -webkit-text-stroke: 1px #72023a47;
     width: 100%;
@@ -110,7 +110,7 @@ header {
     margin-top: 60px;
     color: #fff;
     font-size: 30px;
-    text-align:justify;
+    text-align: justify;
     padding-right: 100px;
     -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
 }
@@ -138,7 +138,7 @@ header {
     margin-top: 60px;
     color: #fff;
     font-size: 28px;
-    text-align:justify;
+    text-align: justify;
     padding-right: 100px;
     -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
 }
@@ -166,7 +166,7 @@ header {
     margin-top: 35px;
     color: #fff;
     font-size: 27px;
-    text-align:justify;
+    text-align: justify;
     padding-right: 100px;
     -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
 }
@@ -194,7 +194,7 @@ header {
     margin-top: 40px;
     color: #fff;
     font-size: 33px;
-    text-align:justify;
+    text-align: justify;
     padding-right: 100px;
     -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
 }
@@ -222,13 +222,13 @@ header {
     margin-top: 60px;
     color: #fff;
     font-size: 38px;
-    text-align:justify;
+    text-align: justify;
     padding-right: 100px;
     -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
 }
 
 .dre {
-     margin-left: 300px;
+    margin-left: 300px;
     font-size: 35px;
     color: aliceblue;
     -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
@@ -246,17 +246,17 @@ header {
 }
 
 .drequan {
-     margin-left: 80px;
+    margin-left: 80px;
     margin-top: 45px;
     color: #fff;
     font-size: 30px;
-    text-align:justify;
+    text-align: justify;
     padding-right: 100px;
     -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
 }
 
 .rb {
-      margin-left: 300px;
+    margin-left: 300px;
     font-size: 35px;
     color: aliceblue;
     -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
@@ -274,11 +274,11 @@ header {
 }
 
 .raulbautista {
-      margin-left: 80px;
+    margin-left: 80px;
     margin-top: 60px;
     color: #fff;
     font-size: 30px;
-    text-align:justify;
+    text-align: justify;
     padding-right: 100px;
     -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
 }
