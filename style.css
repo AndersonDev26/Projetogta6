@@ -46,7 +46,6 @@ header {
     align-self: center;
     margin-left: 80px;
 
-
 }
 
 .div2 {
@@ -89,7 +88,7 @@ nav {
 
 #h22 {
     font-size: 30px;
-    -webkit-text-stroke: 1px rgba(9, 9, 9, 0.83);
+    
 }
 
 #h2 {
@@ -101,7 +100,7 @@ nav {
     align-items: center;
     justify-content: center;
     font-size: 60px;
-    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.395);
+    -webkit-text-stroke:  1px #020202;
 }
 
 
