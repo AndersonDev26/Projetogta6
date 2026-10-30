@@ -82,9 +82,11 @@ header {
     display: flex;
     justify-content: center;
     margin-top: 60px;
-    -webkit-text-stroke: 1px #72023a47;
+    -webkit-text-stroke: 1px #02f8cf03;
     width: 100%;
-    background-color: #00431e33;
+    background-color: #0404044d;
+    box-shadow: 0px 4px 10px #450149;
+    text-shadow: 0px 4px 3px #ffffff;
 }
 
 .jazon {
@@ -92,6 +94,7 @@ header {
     font-size: 35px;
     color: aliceblue;
     -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
+    text-shadow: 4px 1px 7px#02c3c6 ;
 }
 
 
@@ -104,6 +107,7 @@ header {
     margin-left: 100px;
     border-radius: 20px;
     border: solid 2px #02c3c6;
+    box-shadow: 0px 4px 10px #00aec9c6;
 }
 
 .j2 {
@@ -114,6 +118,7 @@ header {
     text-align: justify;
     padding-right: 100px;
     -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
+
 }
 
 .lc {
@@ -125,6 +130,7 @@ header {
     font-size: 35px;
     color: aliceblue;
     -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
+    text-shadow: 4px 1px 7px #b800c9 ;
 }
 
 .lucia {
@@ -132,6 +138,7 @@ header {
     margin-left: 100px;
     border-radius: 20px;
     border: solid 2px #c300ff;
+    box-shadow: 0px 4px 10px #b800c9;
 }
 
 .luciacaminos {
@@ -153,6 +160,8 @@ header {
     font-size: 35px;
     color: aliceblue;
     -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
+    text-shadow: 4px 1px 7px #00fd76 ;
+    
 }
 
 .calh {
@@ -160,6 +169,7 @@ header {
     margin-left: 100px;
     border-radius: 20px;
     border: solid 2px #00fd76;
+    box-shadow: 0px 4px 10px #00c936;
 }
 
 .calhampton {
@@ -177,6 +187,7 @@ header {
     font-size: 35px;
     color: aliceblue;
     -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
+    text-shadow: 4px 1px 7px #fd7200 ;
 }
 
 .brian {
@@ -188,6 +199,7 @@ header {
     margin-left: 100px;
     border-radius: 20px;
     border: solid 2px #fd7200;
+    box-shadow: 0px 4px 10px #c96100;
 }
 
 .brianheder {
@@ -205,6 +217,7 @@ header {
     font-size: 35px;
     color: aliceblue;
     -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
+    text-shadow: 4px 4px 10px #00008d ;
 }
 
 .ike {
@@ -216,6 +229,7 @@ header {
     margin-left: 100px;
     border-radius: 20px;
     border: solid 2px #00008d;
+    box-shadow: 0px 4px 10px #000dc9;
 }
 
 .boobieike {
@@ -233,6 +247,7 @@ header {
     font-size: 35px;
     color: aliceblue;
     -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
+    text-shadow: 4px 1px 7px #ffd500 ;
 }
 
 .quan {
@@ -244,6 +259,7 @@ header {
     margin-left: 100px;
     border-radius: 20px;
     border: solid 2px #ffd500;
+    box-shadow: 0px 4px 10px #c6c900;
 }
 
 .drequan {
@@ -261,6 +277,7 @@ header {
     font-size: 35px;
     color: aliceblue;
     -webkit-text-stroke: 1px rgba(252, 252, 252, 0.455);
+    text-shadow: 4px 1px 7px #fcfbfc ;
 }
 
 .raul {
@@ -272,6 +289,7 @@ header {
     margin-left: 100px;
     border-radius: 20px;
     border: solid 2px #fdfdfd;
+    box-shadow: 0px 4px 10px #ffffff;
 }
 
 .raulbautista {
