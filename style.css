@@ -304,6 +304,10 @@ button{
     cursor: pointer;
 }
 
+button:hover{
+    opacity: 0.8;
+}
+
 .finalpg1 {
     color: #ffffff5d;
     margin-left: 30px;
