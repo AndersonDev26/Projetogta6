@@ -236,11 +236,36 @@ nav {
 }
 
 .vi {
-    font-size: 27px;
+    font-size: 25px;
     color: #fff;
     display: flex;
     justify-content: center;
-    margin-left: 200px;
-    padding-right: 200px;
+    margin-left: 300px;
+    padding-right: 300px;
     text-align: center;
+}
+
+.final {
+    width: 100%;
+    height: 500px;
+    background-color: #020202;
+    display: flex;
+}
+
+.finalimg {
+    width: 40%;
+    height: 450px;
+    border-radius: 20px;
+    
+}
+
+.finalh {
+   color: #fff;
+    
+}
+
+.finalp {
+color: rgb(255, 255, 255);
+margin-top: 300px;
+text-align:left;
 }
