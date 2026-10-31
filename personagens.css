@@ -301,3 +301,9 @@ header {
     padding-right: 100px;
     -webkit-text-stroke: 1px rgba(32, 0, 120, 0.989);
 }
+
+.finalizar {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
