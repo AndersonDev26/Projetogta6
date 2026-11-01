@@ -94,3 +94,40 @@ header {
     box-shadow: 2px 2px 10px #020202;
     background-color: #83eca9;
 }
+
+.para1 {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-left: 280px;
+    padding-right: 280px;
+    text-align: center;
+}
+
+.h2vc {
+    font-size: 40px;
+    display: flex;
+    margin-left: 500px;
+    text-shadow: 1px 1px 10px #006581;
+}
+
+.vice {
+    width: 60%;
+    height: 700px;
+    margin-left: 380px;
+    border-radius: 20px;
+    border: solid 2px #1a353d;
+    box-shadow: 10px 10px 10px #010101;
+}
+
+.h3vc {
+    margin-left: 450px;
+    padding-right: 400px;
+    font-size: 28px;
+}
+
+.pvc {
+    font-size: 20px;
+    margin-left: 450px;
+    padding-right: 400px;
+}
