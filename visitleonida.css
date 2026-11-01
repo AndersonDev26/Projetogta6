@@ -13,7 +13,7 @@ body {
 header {
     width: 100%;
     height: 100px;
-    background-color: rgb(25, 254, 223);
+    background-color: rgba(56, 181, 200, 0.981);   
     display: flex;
 
 }
@@ -141,6 +141,34 @@ header {
 
 .imglk{
     width: 60%;
+    height: 700px;
+    margin-left: 380px;
+    border-radius: 20px;
+    border: solid 2px #1a353d;
+    box-shadow: 10px 10px 10px #010101;
+}
+
+.h3lk {
+    margin-left: 450px;
+    padding-right: 400px;
+    font-size: 28px;
+}
+
+.paralk {
+    font-size: 20px;
+    margin-left: 450px;
+    padding-right: 400px;
+}
+
+.h2grass {
+     font-size: 40px;
+    display: flex;
+    margin-left: 500px;
+    text-shadow: 1px 1px 10px #006581;
+}
+
+.imggras {
+     width: 60%;
     height: 700px;
     margin-left: 380px;
     border-radius: 20px;
