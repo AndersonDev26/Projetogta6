@@ -315,10 +315,36 @@ button:hover{
     opacity: 0.8;
 }
 
+.ultima {
+    display: flex;
+}
+
 .finalpg1 {
     color: #ffffff5d;
     margin-left: 30px;
     font-size: 13px;
 }
+
+.ulti {
+    width: 10%;
+    height: 80px;
+    background-color: #ffffff00;
+    display: flex;
+    margin-left: 1700px;
+    margin-top: 50px;
+    gap: 20px;
+    
+    
+   
+}
+
+#imgu {
+    height: 30px;
+}
+
+#imgul {
+    height: 32px;
+}
+
 
 
