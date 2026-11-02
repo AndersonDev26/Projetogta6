@@ -189,7 +189,7 @@ header {
 }
 
 .h2port {
-      font-size: 40px;
+    font-size: 40px;
     display: flex;
     margin-left: 500px;
     text-shadow: 1px 1px 10px #006581;
@@ -211,6 +211,35 @@ header {
 }
 
 .pgel {
+    font-size: 20px;
+    margin-left: 450px;
+    padding-right: 400px;
+
+}
+
+.h2ambrosia {
+    font-size: 40px;
+    display: flex;
+    margin-left: 500px;
+    text-shadow: 1px 1px 10px #006581;
+}
+
+.imgamb {
+    width: 60%;
+    height: 700px;
+    margin-left: 380px;
+    border-radius: 20px;
+    border: solid 2px #1a353d;
+    box-shadow: 10px 10px 10px #010101;
+}
+
+.h3amb {
+    margin-left: 450px;
+    padding-right: 400px;
+    font-size: 28px;
+}
+
+.pamb {
     font-size: 20px;
     margin-left: 450px;
     padding-right: 400px;

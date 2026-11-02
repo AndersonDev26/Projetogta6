@@ -340,10 +340,20 @@ button:hover{
 
 #imgu {
     height: 30px;
+    cursor: pointer;
 }
 
 #imgul {
     height: 32px;
+    cursor: pointer;
+}
+
+#imgu:hover{
+    opacity: 0.2 ;
+}
+
+#imgul:hover{
+    opacity: 0.2;
 }
 
 
