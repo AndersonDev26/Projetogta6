@@ -244,3 +244,19 @@ header {
     margin-left: 450px;
     padding-right: 400px;
 }
+
+.h2monte {
+    font-size: 40px;
+    display: flex;
+    margin-left: 500px;
+    text-shadow: 1px 1px 10px #006581; 
+}
+
+.imgmc {
+    width: 60%;
+    height: 700px;
+    margin-left: 380px;
+    border-radius: 20px;
+    border: solid 2px #1a353d;
+    box-shadow: 10px 10px 10px #010101;
+}
