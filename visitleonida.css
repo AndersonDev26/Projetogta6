@@ -260,3 +260,15 @@ header {
     border: solid 2px #1a353d;
     box-shadow: 10px 10px 10px #010101;
 }
+
+.h3kalaga {
+    margin-left: 450px;
+    padding-right: 400px;
+    font-size: 28px;
+}
+
+.pmonte {
+     font-size: 20px;
+    margin-left: 450px;
+    padding-right: 400px;
+}
