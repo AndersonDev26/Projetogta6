@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #2d002d;
+    background-color: #710271;
 }
 
 header {
@@ -118,7 +118,7 @@ nav {
     margin-left: 250px;
     margin-top: 60px;
     border-radius: 20px;
-    box-shadow: 0px 4px 10px #b800c9;
+    box-shadow: 0px 4px 10px #ee69fa;
 }
 
 #gta6 {
@@ -164,7 +164,7 @@ nav {
 }
 
 .botao1:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 #h1 {
@@ -312,7 +312,7 @@ button{
 }
 
 button:hover{
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .ultima {
@@ -339,12 +339,12 @@ button:hover{
 }
 
 #imgu {
-    height: 30px;
+    height: 25px;
     cursor: pointer;
 }
 
 #imgul {
-    height: 32px;
+    height: 27px;
     cursor: pointer;
 }
 

@@ -298,24 +298,24 @@ button:hover{
 }
 
 .finalredes {
-      width: 10%;
+    width: 10%;
     height: 80px;
     background-color: #ffffff00;
     display: flex;
     margin-left: 1700px;
-    margin-top: 50px;
+    margin-top: 90px;
     gap: 20px;
 }
 
 #imgu {
-     height: 30px;
+     height: 25px;
     cursor: pointer;
 
 }
 
 #imgul {
 
-     height: 32px;
+     height: 27px;
     cursor: pointer;
 }
 
