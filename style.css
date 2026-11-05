@@ -356,5 +356,226 @@ button:hover{
     opacity: 0.2;
 }
 
+   @media screen and (max-width: 767px) {
 
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    /* HEADER */
+    header {
+        width: 100%;
+        height: auto;
+        min-height: 80px;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .link1{
+        display: none;
+    }
+
+    #img1 {
+        height: 80px;
+        margin-left: 0;
+    }
+
+    .div1 {
+        width: auto;
+        height: auto;
+        margin: 0;
+        gap: 12px;
+        font-size: 11px;
+        align-items: center;
+    }
+
+    .div2 {
+        width: auto;
+        height: auto;
+        margin: 0;
+        gap: 10px;
+    }
+
+    #img2, #img3 {
+        height: 20px;
+        margin-left: 0;
+    }
+
+    /* NAV */
+    nav {
+        width: 100%;
+        height: 55px;
+        text-align: center;
+    }
+
+    #h22 {
+        font-size: 20px;
+    }
+
+    /* TÍTULO PRINCIPAL */
+    #h2 {
+        width: 100%;
+        height: 90px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    /* PRIMEIRA SECTION */
+    .div4 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div4-5 {
+        width: 90%;
+        height: auto;
+        min-height: 300px;
+        margin: 30px auto 0;
+        justify-content: center;
+    }
+
+    #gta6 {
+        max-width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .div5 {
+        width: 90%;
+        height: auto;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    #p1 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    #p2 {
+        font-size: 16px;
+    }
+
+    #p3 {
+        font-size: 14px;
+    }
+
+    .botao1 {
+        margin-top: 15px;
+    }
+
+    /* TÍTULOS */
+    #h1, #h12, #h13 {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 70px;
+    }
+
+    /* TRAILERS */
+    #trailer1,
+    #trailer2,
+    #trailer3 {
+        width: 90%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        display: block;
+        margin: 30px auto;
+    }
+
+    /* CAPA */
+    .capa {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .cao {
+        width: 90%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+    }
+
+    /* TEXTOS */
+    .leonida {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .vi {
+        font-size: 16px;
+        margin: 15px auto;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    /* PARTE FINAL */
+    .final {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .finalimg {
+        position: static;
+        width: 90%;
+        height: auto;
+        margin: 30px auto;
+    }
+
+    .finalh {
+        position: static;
+        font-size: 30px;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .finalp {
+        position: static;
+        text-align: center;
+        font-size: 15px;
+        margin: 10px 20px;
+        padding: 0;
+    }
+
+    /* BOTÕES FINAIS */
+    .acabamento {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    /* RODAPÉ */
+    .ultima {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .finalpg1 {
+        margin: 15px 0;
+        text-align: center;
+    }
+
+    .ulti {
+        width: auto;
+        height: auto;
+        margin: 15px auto;
+        justify-content: center;
+    }
+
+    #imgu, #imgul {
+        height: 25px;
+    }
+
+}
 
