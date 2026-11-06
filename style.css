@@ -369,7 +369,7 @@ button:hover{
         height: auto;
         min-height: 80px;
         align-items: center;
-        justify-content: space-around;
+        
         flex-wrap: wrap;
     }
 
@@ -395,7 +395,10 @@ button:hover{
         width: auto;
         height: auto;
         margin: 0;
-        gap: 10px;
+        gap: 15px;
+        display: flex;
+        justify-content: end;
+        padding-left: 160px;
     }
 
     #img2, #img3 {
@@ -408,21 +411,19 @@ button:hover{
         width: 100%;
         height: 55px;
         text-align: center;
+        display: none;
     }
 
-    #h22 {
-        font-size: 20px;
-    }
 
-    /* TÍTULO PRINCIPAL */
+   
     #h2 {
         width: 100%;
         height: 90px;
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
+    
     }
 
-    /* PRIMEIRA SECTION */
     .div4 {
         width: 100%;
         flex-direction: column;
