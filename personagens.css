@@ -421,6 +421,7 @@ button:hover {
         font-size: 18px;
         margin-top: 30px;
        -webkit-text-stroke:#fff;
+       text-align: start;
     }
  
     .finalizar { flex-wrap: wrap; margin-top: 30px; }
@@ -432,5 +433,13 @@ button:hover {
         justify-content: center;
     }
  
-    .finalpg2 { margin-left: 0; text-align: center; }
+    .finalpg2 { 
+         margin-left: 0;
+         text-align: center;
+         color: #fff;
+         padding-right: 15px ;
+         padding-left: 15px ;
+         font-size: 12px;
+         margin-top: 10px;
+         }
 }
