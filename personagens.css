@@ -361,7 +361,6 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) {
-   
     header {
         height: auto;
         flex-wrap: wrap;
@@ -380,30 +379,16 @@ button:hover {
         justify-content: center;
         flex-wrap: wrap;
         gap: 20px;
-        display: none;
     }
  
-    .div2 {
-         width: auto;
-         height: auto;
-         margin: 0;
-         }
+    .div2 { width: auto; height: auto; margin: 0; }
  
-    .personagens {
-        font-size: 32px;
-        margin-top: 5px;
-        text-align: center;
-        box-shadow: none;
-        background-color: #00556d;
-        font-size: 40px;
-    
-    }
+    .personagens { font-size: 32px; margin-top: 30px; text-align: center; }
  
-   
+    /* Cada linha vira coluna: título → imagem → texto */
     .jd, .lc, .hamptom, .brian, .ike, .quan, .raul {
         flex-direction: column;
         align-items: center;
-
     }
  
     .jazon, .luc, .cal, .bh, .boobie, .dre, .rb {
