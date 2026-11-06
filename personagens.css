@@ -361,6 +361,7 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) {
+   
     header {
         height: auto;
         flex-wrap: wrap;
@@ -379,11 +380,19 @@ button:hover {
         justify-content: center;
         flex-wrap: wrap;
         gap: 20px;
+        display: none;
     }
  
     .div2 { width: auto; height: auto; margin: 0; }
  
-    .personagens { font-size: 32px; margin-top: 30px; text-align: center; }
+    .personagens { 
+        font-size: 32px;
+        margin-top: 30px;
+        text-align: center;
+        background-color: #00556d;
+        box-shadow: none;
+        font-size:42px;
+         }
  
     /* Cada linha vira coluna: título → imagem → texto */
     .jd, .lc, .hamptom, .brian, .ike, .quan, .raul {
@@ -402,6 +411,7 @@ button:hover {
         max-width: 500px;
         height: auto;
         margin-left: 0;
+       
     }
  
     .j2, .luciacaminos, .calhampton, .brianheder,
@@ -409,7 +419,8 @@ button:hover {
         margin: 10px 0 0 0;
         padding: 0 20px;
         font-size: 18px;
-        text-align: justify;
+        margin-top: 30px;
+       -webkit-text-stroke:#fff;
     }
  
     .finalizar { flex-wrap: wrap; margin-top: 30px; }
