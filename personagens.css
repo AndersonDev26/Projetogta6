@@ -361,16 +361,13 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) {
+   
     header {
         height: auto;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         padding: 10px 15px;
-    }
-
-    .link1 {
-        display: none;
     }
  
     #img1 { height: 70px; margin-left: 0; }
@@ -382,35 +379,37 @@ button:hover {
         margin: 10px 0 0 0;
         justify-content: center;
         flex-wrap: wrap;
-     
+        gap: 20px;
+        display: none;
     }
  
-    .div2 { width: auto; height: auto; margin: 0; }
-
+    .div2 {
+         width: auto;
+         height: auto;
+         margin: 0;
+         }
  
-    .personagens { 
-        font-size: 45px;
-        margin-top: 5px; 
+    .personagens {
+        font-size: 32px;
+        margin-top: 5px;
         text-align: center;
-        background-color: #00556d;
         box-shadow: none;
-        padding-right: 10px;
-        padding-left: 10px;
-        color: #ffffff;
-        
-        }
+        background-color: #00556d;
+        font-size: 40px;
+    
+    }
  
-    /* Cada linha vira coluna: título → imagem → texto */
+   
     .jd, .lc, .hamptom, .brian, .ike, .quan, .raul {
         flex-direction: column;
         align-items: center;
+
     }
  
     .jazon, .luc, .cal, .bh, .boobie, .dre, .rb {
-        margin: 30px 0 15px 0;
+        margin: 15px 0 8px 0;
         font-size: 26px;
         text-align: center;
-        
     }
  
     .jasonduval, .lucia, .calh, .heder, .bi, .priest, .bautista {
@@ -418,12 +417,11 @@ button:hover {
         max-width: 500px;
         height: auto;
         margin-left: 0;
-        
     }
  
     .j2, .luciacaminos, .calhampton, .brianheder,
     .boobieike, .drequan, .raulbautista {
-        margin: 20px 0 0 0;
+        margin: 10px 0 0 0;
         padding: 0 20px;
         font-size: 18px;
         text-align: justify;
