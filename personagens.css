@@ -360,7 +360,7 @@ button:hover {
     font-size: 13px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
    
     header {
         height: auto;
@@ -443,3 +443,9 @@ button:hover {
          margin-top: 10px;
          }
 }
+
+
+
+
+
+
