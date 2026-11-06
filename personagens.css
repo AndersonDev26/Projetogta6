@@ -359,3 +359,84 @@ button:hover {
     margin-left: 30px;
     font-size: 13px;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px;
+    }
+
+    .link1 {
+        display: none;
+    }
+ 
+    #img1 { height: 70px; margin-left: 0; }
+ 
+    .div1 {
+        order: 3;
+        width: 100%;
+        height: auto;
+        margin: 10px 0 0 0;
+        justify-content: center;
+        flex-wrap: wrap;
+     
+    }
+ 
+    .div2 { width: auto; height: auto; margin: 0; }
+
+ 
+    .personagens { 
+        font-size: 45px;
+        margin-top: 5px; 
+        text-align: center;
+        background-color: #00556d;
+        box-shadow: none;
+        padding-right: 10px;
+        padding-left: 10px;
+        color: #ffffff;
+        
+        }
+ 
+    /* Cada linha vira coluna: título → imagem → texto */
+    .jd, .lc, .hamptom, .brian, .ike, .quan, .raul {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .jazon, .luc, .cal, .bh, .boobie, .dre, .rb {
+        margin: 30px 0 15px 0;
+        font-size: 26px;
+        text-align: center;
+        
+    }
+ 
+    .jasonduval, .lucia, .calh, .heder, .bi, .priest, .bautista {
+        width: 90%;
+        max-width: 500px;
+        height: auto;
+        margin-left: 0;
+        
+    }
+ 
+    .j2, .luciacaminos, .calhampton, .brianheder,
+    .boobieike, .drequan, .raulbautista {
+        margin: 20px 0 0 0;
+        padding: 0 20px;
+        font-size: 18px;
+        text-align: justify;
+    }
+ 
+    .finalizar { flex-wrap: wrap; margin-top: 30px; }
+ 
+    .finalredes {
+        width: 100%;
+        height: auto;
+        margin: 30px 0 0 0;
+        justify-content: center;
+    }
+ 
+    .finalpg2 { margin-left: 0; text-align: center; }
+}
