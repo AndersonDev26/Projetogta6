@@ -512,6 +512,7 @@ button:hover{
     body {
         width: 100%;
         overflow-x: hidden;
+        
     }
 
     .leonida {
@@ -522,27 +523,23 @@ button:hover{
         width: 100%;
         height: auto;
         min-height: 100px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
+       display: none;
         padding: 10px;
-    }
-
-    #img1 {
-        height: 100px;
-        margin: 0;
     }
 
     .div1 {
         width: 55%;
         height: auto;
         margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         flex-wrap: wrap;
         gap: 18px;
         font-size: 13px;
+        display: none;
+        
+    }
+
+    .link1 {
+        display: none;
     }
 
     .div2 {
