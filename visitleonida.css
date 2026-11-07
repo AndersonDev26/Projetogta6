@@ -484,7 +484,7 @@ button:hover{
         margin: 40px auto 20px;
         display: flex;
         justify-content: center;
-        gap: 25px;
+        gap: 10px;
     }
 
     #imgu, #imgul {
