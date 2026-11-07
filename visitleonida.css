@@ -335,3 +335,321 @@ button:hover{
 }
 
 
+@media screen and (max-width: 768px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .leonida {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        min-height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    #img1 {
+        height: 85px;
+        margin: 0;
+    }
+
+    .div1 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        font-size: 12px;
+    }
+
+    .div2 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    #img2, #img3 {
+        height: 25px;
+        margin: 0;
+    }
+
+    .welcome {
+        width: 100%;
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .para1 {
+        width: 90%;
+        font-size: 18px;
+        margin: 20px auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .h2vc,
+    .h2lk,
+    .h2grass,
+    .h2port,
+    .h2ambrosia,
+    .h2monte {
+        width: 95%;
+        font-size: 27px;
+        margin: 30px auto 15px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .vice,
+    .imglk,
+    .imggras,
+    .imgport,
+    .imgamb,
+    .imgmc {
+        display: block;
+        width: 90%;
+        height: auto;
+        max-height: 450px;
+        margin: 20px auto;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+    .h3vc,
+    .h3lk,
+    .h3gra,
+    .h3gel,
+    .h3amb,
+    .h3kalaga {
+        width: 90%;
+        font-size: 21px;
+        margin: 20px auto 10px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .pvc,
+    .paralk,
+    .pgrass,
+    .pgel,
+    .pamb,
+    .pmonte {
+        width: 90%;
+        font-size: 16px;
+        margin: 10px auto 25px;
+        padding: 0;
+        text-align: justify;
+        line-height: 1.6;
+    }
+
+    .finalvist {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    button {
+        max-width: 90%;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .finalredes {
+        width: 100%;
+        height: auto;
+        margin: 40px auto 20px;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    #imgu, #imgul {
+        height: 25px;
+    }
+
+    .finalpagina {
+        width: 100%;
+        margin: 15px auto;
+        padding: 0 10px;
+        font-size: 11px;
+        text-align: center;
+    }
+
+}
+
+
+/* TABLETS */
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .leonida {
+        display: none;
+    }
+
+    header {
+        width: 100%;
+        height: auto;
+        min-height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px;
+    }
+
+    #img1 {
+        height: 100px;
+        margin: 0;
+    }
+
+    .div1 {
+        width: 55%;
+        height: auto;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 18px;
+        font-size: 13px;
+    }
+
+    .div2 {
+        width: auto;
+        height: auto;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #img2, #img3 {
+        height: 25px;
+        margin: 0;
+    }
+
+    .welcome {
+        width: 100%;
+        font-size: 45px;
+        text-align: center;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .para1 {
+        width: 85%;
+        font-size: 24px;
+        margin: 25px auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .h2vc,
+    .h2lk,
+    .h2grass,
+    .h2port,
+    .h2ambrosia,
+    .h2monte {
+        width: 90%;
+        font-size: 35px;
+        margin: 35px auto 20px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .vice,
+    .imglk,
+    .imggras,
+    .imgport,
+    .imgamb,
+    .imgmc {
+        display: block;
+        width: 85%;
+        height: auto;
+        max-height: 600px;
+        margin: 25px auto;
+        object-fit: cover;
+    }
+
+    .h3vc,
+    .h3lk,
+    .h3gra,
+    .h3gel,
+    .h3amb,
+    .h3kalaga {
+        width: 85%;
+        font-size: 25px;
+        margin: 25px auto 10px;
+        padding: 0;
+    }
+
+    .pvc,
+    .paralk,
+    .pgrass,
+    .pgel,
+    .pamb,
+    .pmonte {
+        width: 85%;
+        font-size: 19px;
+        margin: 10px auto 25px;
+        padding: 0;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    .finalvist {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .finalredes {
+        width: 100%;
+        height: auto;
+        margin: 50px auto 20px;
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .finalpagina {
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 13px;
+    }
+
+}
