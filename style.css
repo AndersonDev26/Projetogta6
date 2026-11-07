@@ -356,7 +356,7 @@ button:hover{
     opacity: 0.2;
 }
 
-   @media screen and (max-width: 767px) {
+   @media screen and (max-width: 1200px) {
 
     body {
         width: 100%;
@@ -364,31 +364,34 @@ button:hover{
     }
 
     /* HEADER */
-    header {
-        width: 100%;
+ header {
         height: auto;
-        min-height: 80px;
-        align-items: center;
-        background-color: #ececec;
         flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 15px;
     }
+ 
 
     .link1{
         display: none;
     }
 
     #img1 {
-        height: 80px;
+        height: 70px;
         margin-left: 0;
+
     }
 
     .div1 {
-        width: auto;
+        order: 3;
+        width: 100%;
         height: auto;
-        margin: 0;
-        gap: 12px;
-        font-size: 11px;
-        align-items: center;
+        margin: 10px 0 0 0;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        display: none;
     }
 
     .div2 {
