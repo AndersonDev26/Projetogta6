@@ -417,11 +417,12 @@ button:hover {
     .j2, .luciacaminos, .calhampton, .brianheder,
     .boobieike, .drequan, .raulbautista {
         margin: 10px 0 0 0;
-        padding-left: 100px;
+        padding-left: 20px;
+        padding-right: 20px;
         font-size: 18px;
         margin-top: 30px;
-       -webkit-text-stroke:#fff;
-       text-align: start;
+        -webkit-text-stroke:#fff;
+        text-align:start;
     }
 
     .boobii {
