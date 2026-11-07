@@ -335,7 +335,7 @@ button:hover{
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
 
     * {
         box-sizing: border-box;
@@ -355,7 +355,7 @@ button:hover{
         height: auto;
         min-height: 100px;
         display: flex;
-        flex-direction: column;
+        flex-direction:row;
         align-items: center;
         padding: 10px;
         gap: 15px;
@@ -370,7 +370,7 @@ button:hover{
         width: 100%;
         height: auto;
         margin: 0;
-        display: flex;
+        display: none;
         justify-content: center;
         flex-wrap: wrap;
         gap: 15px;
@@ -382,8 +382,9 @@ button:hover{
         height: auto;
         margin: 0;
         display: flex;
-        justify-content: center;
-        gap: 20px;
+        justify-content:end;
+        gap: 10px;
+        margin-right: 20px;
     }
 
     #img2, #img3 {
@@ -496,157 +497,6 @@ button:hover{
         padding: 0 10px;
         font-size: 11px;
         text-align: center;
-    }
-
-}
-
-
-/* TABLETS */
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-
-    * {
-        box-sizing: border-box;
-    }
-
-    body {
-        width: 100%;
-        overflow-x: hidden;
-        
-    }
-
-    .leonida {
-        display: none;
-    }
-
-    header {
-        width: 100%;
-        height: auto;
-        min-height: 100px;
-       display: none;
-        padding: 10px;
-    }
-
-    .div1 {
-        width: 55%;
-        height: auto;
-        margin: 0;
-        flex-wrap: wrap;
-        gap: 18px;
-        font-size: 13px;
-        display: none;
-        
-    }
-
-    .link1 {
-        display: none;
-    }
-
-    .div2 {
-        width: auto;
-        height: auto;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-    }
-
-    #img2, #img3 {
-        height: 25px;
-        margin: 0;
-    }
-
-    .welcome {
-        width: 100%;
-        font-size: 45px;
-        text-align: center;
-        justify-content: center;
-        padding: 15px;
-    }
-
-    .para1 {
-        width: 85%;
-        font-size: 24px;
-        margin: 25px auto;
-        padding: 0;
-        text-align: center;
-    }
-
-    .h2vc,
-    .h2lk,
-    .h2grass,
-    .h2port,
-    .h2ambrosia,
-    .h2monte {
-        width: 90%;
-        font-size: 35px;
-        margin: 35px auto 20px;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .vice,
-    .imglk,
-    .imggras,
-    .imgport,
-    .imgamb,
-    .imgmc {
-        display: block;
-        width: 85%;
-        height: auto;
-        max-height: 600px;
-        margin: 25px auto;
-        object-fit: cover;
-    }
-
-    .h3vc,
-    .h3lk,
-    .h3gra,
-    .h3gel,
-    .h3amb,
-    .h3kalaga {
-        width: 85%;
-        font-size: 25px;
-        margin: 25px auto 10px;
-        padding: 0;
-    }
-
-    .pvc,
-    .paralk,
-    .pgrass,
-    .pgel,
-    .pamb,
-    .pmonte {
-        width: 85%;
-        font-size: 19px;
-        margin: 10px auto 25px;
-        padding: 0;
-        line-height: 1.6;
-        text-align: justify;
-    }
-
-    .finalvist {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
-    }
-
-    .finalredes {
-        width: 100%;
-        height: auto;
-        margin: 50px auto 20px;
-        display: flex;
-        justify-content: center;
-        gap: 25px;
-    }
-
-    .finalpagina {
-        width: 100%;
-        margin: 20px auto;
-        text-align: center;
-        font-size: 13px;
     }
 
 }
