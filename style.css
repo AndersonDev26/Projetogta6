@@ -1,596 +1,413 @@
+:root {
+    --roxo-900: #12061f;
+    --roxo-800: #1c0b33;
+    --roxo-700: #2b1150;
+    --roxo-600: #43187a;
+    --rosa-300: #ffb3d9;
+    --rosa-200: #ffd0e8;
+    --rosa-100: #fff0f8;
+    --rosa-500: #ff7ec0;
+    --texto: #f6e9f5;
+    --texto-suave: #cdb4d9;
+    --fonte: "Doppio One", "Segoe UI", system-ui, sans-serif;
+}
+
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: "Doppio One", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+br {
+    display: none;
 }
 
 body {
-    background-color: #710271;
+    font-family: var(--fonte);
+    color: var(--texto);
+    line-height: 1.7;
+    min-height: 100vh;
+    background:
+        radial-gradient(900px 500px at 85% -5%, rgba(255, 126, 192, .22), transparent 60%),
+        radial-gradient(800px 600px at 0% 30%, rgba(67, 24, 122, .55), transparent 65%),
+        linear-gradient(180deg, var(--roxo-800), var(--roxo-900) 70%);
+    background-attachment: fixed;
 }
 
-header {
-    width: 100%;
-    height: 100px;
-    background-color: rgb(25, 254, 223);
-    display: flex;
+a {
+    color: inherit;
+    text-decoration: none;
+}
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+:focus-visible {
+    outline: 3px solid var(--rosa-300);
+    outline-offset: 3px;
+    border-radius: 6px;
+}
+
+/* ===== Cabeçalho ===== */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 1rem;
+    padding: .8rem 2rem;
+    background: rgba(18, 6, 31, .82);
+    backdrop-filter: blur(14px);
+    border-bottom: 1px solid rgba(255, 179, 217, .25);
 }
 
 .div1 {
     display: flex;
-    gap: 39px;
-    font-size: 15px;
-    width: 35%;
-    height: 18px;
-    background-color: rgba(0, 255, 255, 0);
-    margin-left: 160px;
-    margin-top: 37px;
+    flex-wrap: wrap;
+    gap: .4rem 1.6rem;
 }
 
 .link1 {
-    text-decoration: none;
+    font-size: .95rem;
+    color: var(--texto-suave);
+    padding: .25rem 0;
+    border-bottom: 2px solid transparent;
+    transition: color .2s, border-color .2s;
 }
 
 .link1:hover {
-    opacity: 0.5;
-}
-
-.link1:visited {
-    color: #020202;
+    color: var(--rosa-300);
+    border-color: var(--rosa-500);
 }
 
 #img1 {
-    display: flex;
-    height: 140px;
-    align-self: center;
-    margin-left: 80px;
-
+    height: 58px;
+    width: auto;
+    border-radius: 10px;
 }
 
 .div2 {
-    width: 5%;
-    height: 50px;
-    background-color: rgba(0, 0, 255, 0);
-    margin-left: 600px;
-    margin-top: 40px;
     display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
 }
 
-#img2 {
-    height: 25px;
-    
+#img2,
+#img3,
+#imgu,
+#imgul {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    padding: 7px;
+    background: rgba(255, 179, 217, .12);
+    border: 1px solid rgba(255, 179, 217, .35);
+    border-radius: 50%;
+    transition: background .2s, transform .2s;
 }
 
-#img2:hover {
-    opacity: 0.5;
+#img2:hover,
+#img3:hover,
+#imgu:hover,
+#imgul:hover {
+    background: var(--rosa-300);
+    transform: translateY(-2px);
 }
 
-#img3 {
-    height: 25px;
-    margin-left: 25px;
-}
-
-#img3:hover {
-    opacity: 0.5;
-}
-
+/* ===== Faixa de título ===== */
 nav {
-    width: 100%;
-    height: 70px;
-    background-color: rgb(98, 8, 150);
-    color: aliceblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    background: linear-gradient(90deg, var(--roxo-600), var(--rosa-500), var(--roxo-600));
 }
-
 
 #h22 {
-    font-size: 30px;
-    
+    font-size: clamp(1rem, 2.2vw, 1.4rem);
+    letter-spacing: .35em;
+    color: var(--roxo-900);
+}
+
+/* ===== Título principal (o momento marcante) ===== */
+.div3 {
+    text-align: center;
+    padding: 5rem 1.5rem 2rem;
 }
 
 #h2 {
-    width: 100%;
-    height: 130px;
-    background-color: black;
-    color: #b800c9;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 60px;
-    -webkit-text-stroke:  1px #020202;
+    font-size: clamp(2rem, 6.5vw, 5rem);
+    line-height: 1.05;
+    font-weight: 400;
+    background: linear-gradient(180deg, var(--rosa-100) 10%, var(--rosa-300) 55%, var(--rosa-500));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(0 0 28px rgba(255, 126, 192, .45));
 }
 
-
+/* ===== Bloco de data ===== */
 .div4 {
-
-    display: flex;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 2rem auto 5rem;
+    padding: 0 2rem;
 }
 
 .div4-5 {
-    width: 35%;
-    height: 500px;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    margin-left: 250px;
-    margin-top: 60px;
-    border-radius: 20px;
-    box-shadow: 0px 4px 10px #ee69fa;
+    position: relative;
+}
+
+.div4-5::before {
+    content: "";
+    position: absolute;
+    inset: 8% 8%;
+    background: radial-gradient(circle, rgba(255, 126, 192, .5), transparent 68%);
+    filter: blur(40px);
 }
 
 #gta6 {
-    margin-left: 65px;
+    position: relative;
+    width: 100%;
+    max-height: 640px;
+    object-fit: contain;
 }
-    
-
 
 .div5 {
-    width: 35%;
-    height: 500px;
-    background-color: rgba(67, 67, 67, 0);
-    border-radius: 20px;
-    margin-top: 60px;
-    margin-left: 50px;
+    padding: 2.5rem;
+    border-radius: 22px;
+    background: linear-gradient(160deg, rgba(67, 24, 122, .55), rgba(28, 11, 51, .75));
+    border: 1px solid rgba(255, 179, 217, .35);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, .45);
 }
 
 #p1 {
-    color: aliceblue;
-    font-size: 40px;
-    margin-top: 80px;
+    font-size: 1.25rem;
+    color: var(--rosa-200);
+    margin-bottom: 1.2rem;
 }
 
 #p2 {
-    color: aliceblue;
-    font-size: 20px;
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: var(--rosa-300);
+    line-height: 1.1;
+    margin-bottom: 1rem;
 }
 
 #p3 {
-    color: aliceblue;
+    color: var(--texto-suave);
+    margin-bottom: 2rem;
 }
 
-.botao1 {
-    width: 180px;
-    height: 50px;
-    border-radius: 20px;
-    font-size: 18px;
-    background-color: #020202;
-    color: aliceblue;
-    border: none;
+.botao1,
+.acabamento button {
+    font-family: var(--fonte);
+    font-size: 1rem;
     cursor: pointer;
-    box-shadow: 0px 4px 10px #0c0c0c;
+    padding: .9rem 2rem;
+    border-radius: 999px;
+    border: none;
+    color: var(--roxo-900);
+    background: linear-gradient(135deg, var(--rosa-200), var(--rosa-500));
+    box-shadow: 0 8px 24px rgba(255, 126, 192, .35);
+    transition: transform .2s, box-shadow .2s;
 }
 
-.botao1:hover {
-    opacity: 0.6;
+.botao1:hover,
+.acabamento button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 32px rgba(255, 126, 192, .55);
 }
 
-#h1 {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    word-spacing: 7px;
-    margin-top: 40px;
-    
-}
-
-#trailer1 {
-    margin-left: 250px;
-    margin-top: 50px;
-    border-radius: 5%;
-    border: solid 2px #020202;
-}
-
-#h12 {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    word-spacing: 7px;
-    margin-top: 180px;
-}
-
-#trailer2 {
-    margin-top: 50px;
-    margin-left: 250px;
-    border-radius: 5%;
-    border: solid 2px #020202;
-}
-
-#h13 {
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    font-size: 50px;
-    word-spacing: 7px;
-    margin-top: 180px;
-}
-
-#trailer3 {
-    margin-top: 50px;
-    margin-left: 250px;
-    border-radius: 5%;
-    border: solid 2px #020202;
-
-}
-
-.capa {
-    font-size: 38px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-}
-
-.cao {
-    width: 1410px;
-    height: 800;
-    border-radius: 5%;
-    border: solid 2px #fff;
-    margin-left: 250px;
-}
-
+/* ===== Trailers ===== */
+#h1,
+#h12,
+#h13,
+.capa,
 .leonida {
-    font-size: 40px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    color: var(--rosa-200);
+    font-size: clamp(1.5rem, 3.5vw, 2.4rem);
+    margin: 4rem 1rem 1.5rem;
+}
+
+#h1::after,
+#h12::after,
+#h13::after,
+.capa::after,
+.leonida::after {
+    content: "";
+    display: block;
+    width: 90px;
+    height: 4px;
+    margin: .8rem auto 0;
+    border-radius: 4px;
+    background: linear-gradient(90deg, var(--roxo-600), var(--rosa-500));
+}
+
+#trailer1,
+#trailer2,
+#trailer3 {
+    display: block;
+    width: min(1100px, calc(100% - 3rem));
+    height: auto;
+    aspect-ratio: 16 / 9;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 0 2px rgba(255, 179, 217, .45), 0 30px 70px rgba(0, 0, 0, .55);
+}
+
+/* ===== Capa ===== */
+.cao {
+    width: min(520px, calc(100% - 3rem));
+    margin: 0 auto;
+    border-radius: 18px;
+    box-shadow: 0 0 0 2px rgba(255, 179, 217, .45), 0 0 60px rgba(255, 126, 192, .3), 0 30px 70px rgba(0, 0, 0, .5);
+}
+
+/* ===== Leonida ===== */
+.leonida {
+    margin-top: 6rem;
 }
 
 .vi {
-    font-size: 25px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    margin-left: 300px;
-    padding-right: 300px;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
     text-align: center;
+    font-size: 1.15rem;
+    color: var(--texto-suave);
 }
 
+/* ===== Jason e Lucia ===== */
 .final {
-    width: 100%;
-    height: 500px;
-    background-color: #02020200;
-    display: flex;
+    position: relative;
+    max-width: 1100px;
+    margin: 6rem auto 0;
+    overflow: hidden;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 179, 217, .35);
+    box-shadow: 0 30px 70px rgba(0, 0, 0, .5);
 }
 
 .finalimg {
-    width: 40%;
-    height: 450px;
-    border-radius: 20px;
-    margin-top: 50px;
-    position: absolute;
-    margin-left: 200px;
-    border: solid 1px #fff;
-    box-shadow: 0px 4px 10px #b800c9;
-    
+    width: 100%;
+    max-height: 620px;
+    object-fit: cover;
+}
+
+.finalh,
+.finalp {
+    position: relative;
+    padding: 0 2.5rem;
 }
 
 .finalh {
-   color: #fff;
-   margin-left: 1000px;
-   position: absolute;
-   font-size: 50px;
-   margin-top: 150px;
-
+    margin-top: -5rem;
+    padding-top: 5rem;
+    font-size: clamp(1.6rem, 3.5vw, 2.5rem);
+    font-weight: 400;
+    color: var(--rosa-300);
+    background: linear-gradient(180deg, transparent, var(--roxo-800) 55%);
 }
 
 .finalp {
-   color: rgb(255, 255, 255);
-   margin-top: 220px;
-   text-align:left;
-   margin-left: 1000px;
-   padding-right: 270px;
-   position: absolute;
+    padding-bottom: 2.5rem;
+    color: var(--texto);
+    background: var(--roxo-800);
+    max-width: none;
 }
 
+/* ===== Botões finais ===== */
 .acabamento {
-    width: 100%;
-    height: 80px;
-    background-color: #02020200;
     display: flex;
-    gap: 50px;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    
+    gap: 1rem;
+    margin: 5rem auto 0;
+    padding: 0 1.5rem;
 }
 
-button{
-
-    height: 50px;
-    border-radius: 20px;
-    font-size: 17px;
-    border: none;
-    padding-right: 10px;
-    padding-left: 10px;
-    background-color: #5c045c;
-    color: #fff;
-    cursor: pointer;
-    box-shadow: 0px 4px 10px #560059;
+.acabamento button {
+    background: transparent;
+    color: var(--rosa-200);
+    border: 2px solid var(--rosa-300);
+    box-shadow: none;
 }
 
-button:hover{
-    opacity: 0.6;
+.acabamento button:hover {
+    background: var(--rosa-300);
+    color: var(--roxo-900);
+}
+
+/* ===== Rodapé ===== */
+.ulti {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 5rem;
 }
 
 .ultima {
-    display: flex;
+    margin-top: 2rem;
+    padding: 1.8rem 1rem;
+    text-align: center;
+    background: var(--roxo-900);
+    border-top: 1px solid rgba(255, 179, 217, .25);
 }
 
 .finalpg1 {
-    color: #050505b4;
-    margin-left: 30px;
-    font-size: 13px;
+    font-size: .85rem;
+    color: var(--texto-suave);
 }
 
-.ulti {
-    width: 10%;
-    height: 80px;
-    background-color: #ffffff00;
-    display: flex;
-    margin-left: 1700px;
-    margin-top: 50px;
-    gap: 20px;
-    
-    
-   
-}
-
-#imgu {
-    height: 25px;
-    cursor: pointer;
-}
-
-#imgul {
-    height: 27px;
-    cursor: pointer;
-}
-
-#imgu:hover{
-    opacity: 0.2 ;
-}
-
-#imgul:hover{
-    opacity: 0.2;
-}
-
-   @media screen and (max-width: 1200px) {
-
-    body {
-        width: 100%;
-        overflow-x: hidden;
+/* ===== Responsivo ===== */
+@media (max-width: 900px) {
+    header {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        text-align: center;
+        padding: .8rem 1rem;
+        position: static;
     }
 
-    /* HEADER */
- header {
-        height: auto;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 15px;
-    }
- 
-
-    .link1{
-        display: none;
-    }
-
-    #img1 {
-        height: 70px;
-        margin-left: 0;
-
-    }
-
-    .div1 {
-        order: 3;
-        width: 100%;
-        height: auto;
-        margin: 10px 0 0 0;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 20px;
-        display: none;
-    }
-
+    .div1,
     .div2 {
-        width: auto;
-        height: auto;
-        margin: 0;
-        gap: 15px;
-        display: flex;
-        justify-content: end;
-        padding-left: 160px;
-    }
-
-    #img2, #img3 {
-        height: 20px;
-        margin-left: 0;
-    }
-
-    
-    nav {
-        width: 100%;
-        height: 55px;
-        text-align: center;
-        display: none;
-    }
-
-
-   
-    #h2 {
-        width: 100%;
-        height: 90px;
-        font-size: 30px;
-        text-align: center;
-        color: #ffffff;
-    
+        justify-content: center;
     }
 
     .div4 {
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .div4-5 {
-        width: 90%;
-        height: auto;
-        min-height: 300px;
-        margin: 30px auto 0;
-        justify-content: center;
-        box-shadow: none;
-        background-color: #710258;
-    }
-
-    #gta6 {
-        max-width: 100%;
-        height: auto;
-        margin: 0;
-        box-shadow: 0px 4px 10px #020202;
-        border-radius: 20px;
-        
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 0 1.2rem;
     }
 
     .div5 {
-        width: 90%;
-        height: auto;
-        margin: 30px auto;
-        text-align: center;
+        padding: 1.8rem;
     }
 
-    #p1 {
-        font-size: 28px;
-        margin-top: 20px;
+    .div3 {
+        padding-top: 3rem;
     }
-
-    #p2 {
-        font-size: 16px;
-    }
-
-    #p3 {
-        font-size: 14px;
-    }
-
-    .botao1 {
-        margin-top: 10px;
-    }
-
-    /* TÍTULOS */
-    #h1, #h12, #h13 {
-        font-size: 28px;
-        text-align: center;
-        margin-top: 70px;
-    }
-
-    /* TRAILERS */
-    #trailer1,
-    #trailer2,
-    #trailer3 {
-        width: 90%;
-        height: auto;
-        aspect-ratio: 17 / 9;
-        display: block;
-        margin: 10px auto;
-    }
-
-    /* CAPA */
-    .capa {
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .cao {
-        width: 90%;
-        height: auto;
-        display: block;
-        margin: 05px auto;
-    }
-
-    /* TEXTOS */
-    .leonida {
-        font-size: 28px;
-        text-align: center;
-    }
-
-    .vi {
-        font-size: 16px;
-        margin: 15px auto;
-        padding: 0 20px;
-        text-align: center;
-    }
-
-    /* PARTE FINAL */
-    .final {
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .finalimg {
-        position: static;
-        width: 90%;
-        height: auto;
-        margin: 30px auto;
-    }
-
-    .finalh {
-        position: static;
-        font-size: 30px;
-        text-align: center;
-        margin: 20px auto;
-    }
-
-    .finalp {
-        position: static;
-        text-align: center;
-        font-size: 15px;
-        margin: 10px 20px;
-        padding: 0;
-    }
-
-    /* BOTÕES FINAIS */
-    .acabamento {
-        width: 100%;
-        height: auto;
-        padding: 20px 0;
-        gap: 15px;
-        flex-wrap: wrap;
-    }
-
-    button {
-        font-size: 13px;
-        
-        
-    }
-
-    .ultima {
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .finalpg1 {
-        margin: 15px 0;
-        text-align: center;
-        color: #b8b6b6;
-        font-size: 11px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .ulti {
-        width: auto;
-        height: auto;
-        margin: 15px auto;
-        justify-content: center;
-    }
-
-    #imgu, #imgul {
-        height: 25px;
-    }
-
 }
 
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    * {
+        transition: none !important;
+    }
+}
