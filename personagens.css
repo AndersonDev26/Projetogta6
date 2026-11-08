@@ -240,6 +240,10 @@ a {
     transition: box-shadow .25s;
 }
 
+strong {
+    color: #2200fe;
+}
+
 .ficha:hover {
     box-shadow: 0 0 0 1px var(--neon), var(--glow), 0 18px 40px -20px rgba(14, 165, 233, .7);
 }
