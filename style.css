@@ -110,7 +110,7 @@ header {
     padding: 7px;
     background: rgba(255, 179, 217, .12);
     border: 1px solid rgba(255, 179, 217, .35);
-    border-radius: 45%;
+    border-radius: 46%;
     transition: background .2s, transform .2s;
 }
 
